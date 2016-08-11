@@ -26,11 +26,13 @@ typedef vector<string> vstr;
 typedef vector<bool> vbool;
 typedef map<string, int> mstr;
 typedef map<int, int> mint;
+typedef map<string, int>::iterator mstrit;
+typedef map<int, int>::iterator mintit;
 
 #define nl '\n'
 #define eps 1e-9
-#define inf 1000000000
-#define neginf -1000000000
+#define inf 10e9
+#define neginf -10e9
 #define pb push_back
 #define popb pop_back
 #define forf(i, a, b) for(i = a; i < b; i++)
@@ -41,11 +43,16 @@ typedef map<int, int> mint;
 
 template<class T>inline T sqr(T x){return x * x;}
 
+void do()
+{
 
+}
 
 int main()
 {
     ios::sync_with_stdio(false);
+    //do();
+
 
     return 0;
 }
