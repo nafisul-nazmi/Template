@@ -31,7 +31,7 @@ typedef map<int, int> mint;
 typedef map<string, int>::iterator mstrit;
 typedef map<int, int>::iterator mintit;
 
-#define endl '\n'
+#define endl "\n"
 #define nl '\n'
 #define eps 1e-9
 #define inf 10e9
