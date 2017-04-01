@@ -1,21 +1,7 @@
 //Nafisul Islam Nazmi
 //Problem:
 
-#include <iostream>
-#include <stdio.h>
-#include <math.h>
-#include <string.h>
-#include <ctype.h>
-#include <stdlib.h>
-#include <algorithm>
-#include <stack>
-#include <queue>
-#include <map>
-#include <vector>
-#include <set>
-#include <string>
-#include <iomanip>
-
+#include <bits/stdc++.h>
 using namespace std;
 
 typedef long long i64;
@@ -48,7 +34,7 @@ template<class T>inline T sqr(T x){return x * x;}
 i64 factorial(i64 n){i64 i, f = 1; if(i <= 1)return 1; forfi(i, 1, n) f*=i; return f;}
 void printtc(){cout << "Case " << ++tc;}
 
-void solution()
+void solve()
 {
 
 }
@@ -56,7 +42,7 @@ void solution()
 int main()
 {
     ios::sync_with_stdio(false);
-    //solution();
+    //solve();
 
 
     return 0;
